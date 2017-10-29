@@ -3,6 +3,7 @@
 //
 
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -23,9 +24,5 @@ void PreOrder(BiThrTree *T);
 void InOrder(BiThrTree *T);
 void PostOrder(BiThrTree *T);
 int BiThrTreeCount(BiThrTree *T);
-int InOrderThreading(BiThrTree *&Thrt,BiThrTree *T);
-void InThreading(BiThrTree *p);
-int Print(char e);
-int InOrderTraveras_Thr(BiThrTree *T,int (* Visit)(char e));
 
 BiThrTree *PreOrderCTree();

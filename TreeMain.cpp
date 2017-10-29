@@ -1,10 +1,8 @@
 
 #include "Btree.h"
 
-
 int main(){
     BiThrTree *T;
-    BiThrTree *Thrt;
     int t;
     char nodes[]="RAC#FD##BEG###";
     //T=CreateBiThrTree(nodes,1,4);
@@ -16,8 +14,6 @@ int main(){
     putchar('\n');
     //PostOrder(T);
     t=BiThrTreeCount(T);
-    printf("%d\n",t);
-    t=InOrderThreading(Thrt,T);
-    printf("%d\n",t);
+    printf("%d",t);
     return 0;
 }
