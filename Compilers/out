@@ -1,0 +1,16 @@
+do	do
+{	{
+read	read
+(	(
+ID	a
+)	)
+;	;
+}	}
+while	while
+(	(
+ID	a
+==	==
+NUM	10
+)	)
+;	;
+Error!	ÿ
