@@ -1,0 +1,9 @@
+{	{
+int	int
+NUM	123
+ID	a
+;	;
+int	int
+ID	aaaaaa
+;	;
+}	}
